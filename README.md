@@ -1,4 +1,4 @@
-# masterclass
+# App Masterclass
 
 A new Flutter project.
 
