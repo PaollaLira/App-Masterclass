@@ -10,7 +10,7 @@ class BarraInferiorHome extends StatelessWidget {
       child: Container(
         width: double.infinity,
         height: 66,
-        color: const Color(0xff121517),
+        color: const Color(0xffD6DFE4),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
@@ -21,12 +21,12 @@ class BarraInferiorHome extends StatelessWidget {
                   width: 59,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(30),
-                    color: const Color(0xff121517),
+                    color: const Color(0xffEDF4F8),
                   ),
                   child: SizedBox(
                     height: 46,
                     child: Image.asset(
-                      'assets/icons/target.png',
+                      'assets/icons/target-light.png',
                       width: 24,
                       height: 24,
                     ),
@@ -36,7 +36,7 @@ class BarraInferiorHome extends StatelessWidget {
                 const Text(
                   'Atividades',
                   style: TextStyle(
-                      color: Color(0xffEDF4F8),
+                      color: Color(0xff172026),
                       fontFamily: 'Montserrat',
                       fontSize: 12),
                 ),
@@ -52,17 +52,17 @@ class BarraInferiorHome extends StatelessWidget {
                 decoration: const BoxDecoration(
                   border: Border(
                     left: BorderSide(
-                      color: Color(0xff51565A),
+                      color: Color(0xffD6DFE4),
                     ),
                     right: BorderSide(
-                      color: Color(0xff51565A),
+                      color: Color(0xffD6DFE4),
                     ),
                   ),
                 ),
                 child: Column(
                   children: [
                     Image.asset(
-                      'assets/icons/github.png',
+                      'assets/icons/github-light.png',
                       height: 24,
                       width: 24.62,
                     ),
@@ -70,7 +70,7 @@ class BarraInferiorHome extends StatelessWidget {
                     const Text(
                       'Repositórios',
                       style: TextStyle(
-                        color: Color(0xffEDF4F8),
+                        color: Color(0xffD6DFE4),
                         fontFamily: 'Montserrat',
                         fontSize: 12,
                       ),
@@ -101,7 +101,7 @@ class BarraInferiorHome extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 12,
                       fontFamily: 'Montserrat',
-                      color: Color(0xffEDF4F8),
+                      color: Color(0xff172026),
                     ),
                   ),
                 ],

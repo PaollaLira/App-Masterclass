@@ -1,0 +1,57 @@
+import 'package:flutter/material.dart';
+
+class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
+  const AppBarWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Container(
+        color: const Color(0xffD6DFE4),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 25.0),
+          child: Row(
+            children: [
+              Image.asset('assets/images/logo.png'),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: const [
+                  Padding(
+                    padding: EdgeInsets.only(
+                      top: 12.0,
+                    ),
+                    child: Text(
+                      ' Atividades',
+                      style: TextStyle(
+                        color: Color(0xff172026),
+                        fontSize: 20,
+                        fontFamily: 'Poppins-SemiBold',
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    '  Flutterando Masterclass',
+                    style: TextStyle(
+                      color: Color(0xff172026),
+                      fontSize: 12,
+                      fontFamily: 'Poppins-Medium',
+                    ),
+                  ),
+                ],
+              ),
+              const Spacer(),
+              const SizedBox(
+                width: 167,
+              ),
+              Image.asset('assets/icons/moon-light.png'),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(75);
+}
