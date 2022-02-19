@@ -21,11 +21,12 @@ class BarraInferiorDev extends StatelessWidget {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 46,
+                    height: 38,
                     child: Image.asset(
                       'assets/icons/target.png',
                       width: 24,
                       height: 24,
+                      alignment: Alignment.center,
                     ),
                   ),
                   const SizedBox(height: 2.71),
@@ -92,16 +93,18 @@ class BarraInferiorDev extends StatelessWidget {
                       ),
                       child: Center(
                         child: SizedBox(
-                          height: 46,
+                          height: 38,
                           child: IconButton(
                             onPressed: () {},
                             icon: const Icon(Icons.person,
-                                color: Colors.white, size: 28),
+                                color: Colors.white, size: 29),
+                            alignment: Alignment.topCenter,
                           ),
                         ),
                       ),
                     ),
                   ),
+                  const SizedBox(height: 4.7),
                   const Text(
                     'Sobre o dev',
                     style: TextStyle(

@@ -11,7 +11,7 @@ class MyCard3 extends StatelessWidget {
       child: Container(
         color: const Color(0xff121517),
         width: 400,
-        height: 220,
+        height: 230,
         child: Padding(
           padding: const EdgeInsets.all(5.0),
           child: Container(

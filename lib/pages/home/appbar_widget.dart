@@ -9,7 +9,7 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
       child: Container(
         color: const Color(0xff121517),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15.0),
+          padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Row(
             children: [
               Image.asset('assets/images/logo.png'),
@@ -41,10 +41,10 @@ class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
                 ],
               ),
               const Spacer(),
-              Image.asset('assets/icons/moon.png'),
               const SizedBox(
-                width: 26.55,
-              )
+                width: 167,
+              ),
+              Image.asset('assets/icons/moon.png'),
             ],
           ),
         ),

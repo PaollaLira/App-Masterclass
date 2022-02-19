@@ -228,7 +228,7 @@ class InfosPage extends StatelessWidget {
                   ),
                 ),
               ),
-            ], //children coluna mae
+            ], //children coluna mãe
           ),
         ),
       ),

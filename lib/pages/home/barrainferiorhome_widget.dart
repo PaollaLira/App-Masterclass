@@ -32,7 +32,7 @@ class BarraInferiorHome extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 2.71),
+                const SizedBox(height: 4),
                 const Text(
                   'Atividades',
                   style: TextStyle(
@@ -86,10 +86,12 @@ class BarraInferiorHome extends StatelessWidget {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 46,
+                    height: 38,
                     width: 100,
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pushNamed(SOBREDEV);
+                      },
                       icon: const Icon(Icons.person,
                           color: Colors.white, size: 28),
                     ),

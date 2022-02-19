@@ -21,14 +21,14 @@ class BarraInferiorRepos extends StatelessWidget {
               child: Column(
                 children: [
                   SizedBox(
-                    height: 46,
+                    height: 38,
                     child: Image.asset(
                       'assets/icons/target.png',
                       width: 24,
                       height: 24,
                     ),
                   ),
-                  const SizedBox(height: 2.71),
+                  //const SizedBox(height: 2.71),
                   const Text(
                     'Atividades',
                     style: TextStyle(
@@ -93,9 +93,11 @@ class BarraInferiorRepos extends StatelessWidget {
                   Center(
                     child: Center(
                       child: SizedBox(
-                        height: 46,
+                        height: 38,
                         child: IconButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.of(context).pushNamed(SOBREDEV);
+                          },
                           icon: const Icon(Icons.person,
                               color: Colors.white, size: 28),
                         ),
